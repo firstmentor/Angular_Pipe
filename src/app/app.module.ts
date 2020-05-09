@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MycityPipe } from './mycity.pipe';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MycityPipe
+   
   ],
   imports: [
     BrowserModule,
